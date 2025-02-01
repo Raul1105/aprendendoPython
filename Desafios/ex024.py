@@ -1,0 +1,5 @@
+cidade = input("Digite o nome da cidade:")
+cidade = cidade.upper()
+print(f"A cidade {cidade} começa com SANTO?")
+cidade = cidade.split()
+print(f'{"SANTO" in cidade[0]}')
